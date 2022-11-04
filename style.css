@@ -1,0 +1,37 @@
+html {
+    position: relative;
+    min-height: 100%;
+  }
+
+.header {
+    padding: 2rem 0;
+    background-color:lightgray;
+}
+
+.main {
+    background-color:beige;
+}
+
+.footer {
+    padding: 1rem 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+}
+
+.hero-small {
+    font-size: 1.5rem;
+}
+
+.hero-large {
+    font-size: 3rem;
+}
+
+img.thumb {
+    max-width: 50px;
+}
+
+a.thumb {
+    text-decoration: none;
+}
