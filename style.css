@@ -1,8 +1,9 @@
-.header {
-    padding: 1rem 0 2rem 0;
+body {
+    background-color: #A8DADC;
 }
 
-.main {
+.header {
+    padding: 1rem 0 2rem 0;
 }
 
 .footer {
@@ -14,13 +15,14 @@
 }
 
 .hero-large {
-    font-size: 3rem;
+    font-size: 3.2rem;
+    font-family: 'Roboto Slab', serif;
 }
 
-img.thumb {
-    max-width: 50px;
+.navbar-brand img.thumb {
+    border-radius: 50%;
 }
 
-a.thumb {
-    text-decoration: none;
+img.portrait {
+    border-radius: 10px;
 }

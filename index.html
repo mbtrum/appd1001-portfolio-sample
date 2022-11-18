@@ -4,9 +4,13 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap" rel="stylesheet">    
+    <link href="scss/bootstrap-custom.css" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
-    <title>Hello Bootstrap</title>
+    <title>Green Interiors</title>
 </head>
 
 <body>
@@ -15,7 +19,8 @@
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container">
                 <a class="navbar-brand" href="#">
-                    <img class="img-fluid thumb" src="./portrait.png" alt="Nancy Green"> Nancy Green
+                    <!-- Photo Credit: https://unsplash.com/photos/mQtcrK22CN8?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink -->
+                    <img class="thumb" src="./images/nancy-green-thumb.png" alt="Nancy Green" width="50" height="50"> Nancy Green
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -43,26 +48,25 @@
         </nav>
     </header>
 
-
     <main class="main">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-6 d-flex flex-column justify-content-center">
+                <div class="col-sm-6 d-flex flex-column justify-content-center">
                     <h1 class="hero-small">Hello, my name is Nancy Green</h1>
                     <h2 class="hero-large">I make homes beautiful.</h2>
                     <p>I'm an interior designer and founder of Green Interiors based in Halifax, Nova Scotia.</p>
-                    <p><a href="#" class="btn btn-dark">Let's Talk</a></p>
+                    <p><a href="#" class="btn btn-primary">Let's Talk</a></p>
                 </div>
 
-                <div class="col-lg-6 col-md-6 col-sm-6 d-none d-sm-block">
-                    <img class="img-fluid" src="./portrait.png" alt="Nancy Green">
+                <div class="col-sm-6 d-none d-sm-block">
+                    <img class="img-fluid portrait" src="./images/nancy-green-portrait.jpg" alt="Nancy Green">
                 </div>
             </div>
         </div>
     </main>
 
     <footer class="footer">
-        <div class="container text-muted">
+        <div class="container">
             Green Interiors<br>
             Halifax, Nova Scotia, Canada <br>
             2022
