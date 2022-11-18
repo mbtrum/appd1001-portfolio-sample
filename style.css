@@ -1,23 +1,12 @@
-html {
-    position: relative;
-    min-height: 100%;
-  }
-
 .header {
-    padding: 2rem 0;
-    background-color:lightgray;
+    padding: 1rem 0 2rem 0;
 }
 
 .main {
-    background-color:beige;
 }
 
 .footer {
-    padding: 1rem 0;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    background-color: gray;
+    padding: 3rem 0;    
 }
 
 .hero-small {
